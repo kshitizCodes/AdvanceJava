@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {2, 1, 3, 4, 5, 6, 7, 8, 9};
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int max = arr[0], min= arr[0], sum = 0;
-        for(int i=0; i<arr.length; ++i) {
-            if (arr[i] > max) {
-                max = arr[i];
+        for (int j : arr) {
+            if (j > max) {
+                max = j;
             }
-            if (arr[i] < min) {
-                min = arr[i];
+            if (j < min) {
+                min = j;
             }
-            sum+=arr[i];
+            sum += j;
         }
         System.out.printf("Smallest %d\nLargest %d\nSum %d", min, max, sum);
     }
