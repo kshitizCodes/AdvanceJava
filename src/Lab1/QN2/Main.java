@@ -1,3 +1,5 @@
+package Lab1.QN2;
+
 public class Main {
     public static void main(String[] args) {
         Area rectangle = new Area(23, 32);//for area of rectangle

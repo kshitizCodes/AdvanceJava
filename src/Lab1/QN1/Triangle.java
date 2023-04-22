@@ -1,3 +1,4 @@
+package Lab1.QN1;
 public class Triangle {
     private double s1, s2, s3;
     public Triangle(double side1, double side2, double side3) {

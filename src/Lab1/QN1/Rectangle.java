@@ -1,3 +1,4 @@
+package Lab1.QN1;
 public class Rectangle {
     private double length, breadth;
     public Rectangle(double length, double breadth) {
