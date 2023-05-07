@@ -3,7 +3,7 @@ package Lab2.QN2;
 import java.util.Scanner;
 
 public class Calculator {
-    double num1, num2;
+    double a, b;
     Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -18,26 +18,26 @@ public class Calculator {
 
     public void takeInput() {
         System.out.print("Enter a number: ");
-        this.num1 = Double.parseDouble(scan.nextLine());
+        this.a = Double.parseDouble(scan.nextLine());
         System.out.print("Enter another number: ");
-        this.num2 = Double.parseDouble(scan.nextLine());
+        this.b = Double.parseDouble(scan.nextLine());
     }
 
     public double divide() {
-        if (num2 == 0)
-            throw new ArithmeticException("Division By Zero occurred!");
-        return num1 / num2;
+        if (b == 0)
+            throw new ArithmeticException("Division By 0 occurred!");
+        return a / b;
     }
 
     public double add() {
-        return num1 + num2;
+        return a + b;
     }
 
     public double subtract() {
-        return num1 - num2;
+        return a - b;
     }
 
     public double multiply() {
-        return num1 * num2;
+        return a * b;
     }
 }
