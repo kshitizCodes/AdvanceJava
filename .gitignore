@@ -1,5 +1,4 @@
-# Ignore all files except .java and .pdf
-*
-!*.java
-!*.jsp
-!*.pdf
+.idea/
+lib/
+out/
+*.docx
