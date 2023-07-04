@@ -5,9 +5,6 @@ public class BankAccount implements java.io.Serializable {
     private String accountHolderName;
     private double balance;
 
-    public BankAccount() {
-    }
-    
     public String getAccountNumber() {
         return accountNumber;
     }
